@@ -197,7 +197,7 @@ $("#sideNav4").click(function() {
 });
 
 $("#navIcon5").click(function() {
-   window.open("https://registry.jsonresume.org/thomason");
+   window.open("https://registry.jsonresume.org/fb5d293b");
 });
 
 $("#sideNav5").click(function() {
