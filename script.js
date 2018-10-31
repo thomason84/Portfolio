@@ -197,11 +197,11 @@ $("#sideNav4").click(function() {
 });
 
 $("#navIcon5").click(function() {
-   window.open("https://registry.jsonresume.org/fb5d293b");
+   window.open("https://registry.jsonresume.org/4cf4ce2f");
 });
 
 $("#sideNav5").click(function() {
-   window.open("https://registry.jsonresume.org/fb5d293b");
+   window.open("https://registry.jsonresume.org/4cf4ce2f");
 });
 
 const modalBack = document.getElementById('imageModalContainer');
