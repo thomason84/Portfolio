@@ -41,7 +41,7 @@ main {
 p {
    font-family:'primelight', Arial, sans-serif;
     font-size: 1em;
-    font-style:normal; 
+    font-style:normal;
 }
 
 li {
@@ -120,7 +120,7 @@ h1 {
 }
 
 p {
-    width: 100%;  
+    width: 100%;
     margin: 0px;
     font-size: 1em;
     position: relative;
@@ -286,7 +286,7 @@ nav.sideNavbar {
 /*	margin: auto;*/
 }
 
-#theThomasons, 
+#theThomasons,
 #watson{
 	width: 100%;
 	padding: 0px;
@@ -373,7 +373,7 @@ article.typeText {
     justify-content: center;
     box-sizing: border-box;
     padding: 10px;
-    
+
 }
 
 .responsiveExample img{
@@ -382,7 +382,7 @@ article.typeText {
     max-width: 800px;
     margin: 0px auto 160px auto;
 		padding: 0px 10px 0px 40px;
-    
+
 }
 
 
@@ -414,7 +414,7 @@ article.typeText {
 }
 
 #modalImg{
-	width: 100%; 
+	width: 100%;
 	overflow: auto;
 	margin: auto;
 	border-radius: 7px;
@@ -542,7 +542,7 @@ div.hidden{
 	width: calc(100% - 50px);
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;	
+	justify-content: space-around;
 	-webkit-display: flex;
 	-webkit-flex-wrap: wrap;
 	-webkit-justify-content: space-around;
@@ -577,7 +577,7 @@ div.hidden{
 	padding: 0px;
 	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
-	
+
 }
 
 .flip3d .back {
@@ -585,7 +585,7 @@ div.hidden{
 	position: absolute;
 	transform: perspective( 600px ) rotatey( 180deg);
 	-webkit-transform: -webkit-perspective( 600px ) rotatey( 180deg);
-	background: #3f3f3f; 
+	background: #3f3f3f;
 	width: 300px;
 	height: 200px;
 	border-radius: 7px;
@@ -719,40 +719,40 @@ textArea.formText {
 /***********MEDIA QUERYS*************/
 
 @media screen and (min-width: 400px) {
-    
+
     .workExperience,
 		.portfolioCardsContainer{
 				padding: 0px;
     }
-	
+
 	.workExperience{
 		margin: 0px 0px 100px 0px;
 	}
-    
+
 }
 
 @media screen and (max-width: 501px) {
-    
+
     .navText, .link {
         font-size: 0px;
     }
-    
+
     span.navText {
         display: none;
     }
-    
+
     .navbarItems {
         font-size: 20px;
     }
-    
+
     .languages {
         font-size: 0px;
     }
-    
+
     .fas.fa-code {
         font-size: 30px;
     }
-    
+
     span.titleOne {
         position: relative;
         font-size: 20px;
@@ -766,7 +766,7 @@ textArea.formText {
         bottom: 7px;
         padding-left: 10px;
     }
-    
+
     ul.links {
         width: 70%;
         margin: auto;
@@ -774,24 +774,24 @@ textArea.formText {
 			  font-size: 20px;
 			  align-items: center;
     }
-    
-    
+
+
 }
 
 @media screen and (min-width: 502px) {
-    
+
     .navbarItems {
         font-size: 20px;
     }
-    
+
     .languages {
         font-size: 15px;
     }
-    
+
     .fas.fa-code {
         font-size: 40px;
     }
-    
+
     span.titleOne {
         position: relative;
         font-size: 20px;
@@ -805,31 +805,31 @@ textArea.formText {
         bottom: 7px;
         padding-left: 10px;
     }
-    
+
     main h1 {
         font-size: 3em;
     }
-    
+
     main .titleOne {
         font-size: 2em;
     }
-    
+
     main .titleTwo {
         font-size: 2.3em;
     }
-    
+
     nav li {
         border-right: solid #ffffff 3px;
     }
-    
+
     nav li:last-of-type {
         border-right: none;
     }
-    
+
     .typeText {
         font-size: 1.2em;
     }
-	  
+
 	  ul.links {
         width: 70%;
         margin: auto;
@@ -840,47 +840,47 @@ textArea.formText {
 }
 
 @media screen and (min-width: 536px) {
-    
+
     article.typeText {
         font-size: 1.5em;
     }
-    
+
 }
 
 @media screen and (min-width: 551px) {
-        
+
     nav li {
         font-size: 15px;
     }
-   
+
     main h1 {
         font-size: 4em;
     }
-    
+
     .fas, .far {
         font-size: 1.2em;
     }
-    
+
      span.navText {
-        font-size: 1em;
+        font-size: 0.9em;
     }
-    
+
     main .titleOne {
         font-size: 3em;
     }
-    
+
     main .titleTwo {
         font-size: 3.3em;
     }
-    
+
     .link {
         font-size: 1em;
     }
-    
+
     .fas.fa-code {
         font-size: 40px;
     }
-    
+
     span.titleOne {
         position: relative;
         font-size: 35px;
@@ -894,12 +894,12 @@ textArea.formText {
         bottom: 3px;
         padding-left: 10px;
     }
-    
+
     .codepenLink {
         align-content: center;
         justify-content: center;
     }
-    
+
 }
 
 @media screen and (min-width: 600px) {
@@ -908,18 +908,18 @@ textArea.formText {
    li {
         font-size: 20px;
     }
-    
+
     .links {
         margin-right: auto;
         margin-left: auto;
     }
-    
+
 }
 
 @media screen and (min-width: 800px) {
-    
-    
-    
+
+
+
     nav li {
         padding: 5px 8px;
     }
@@ -927,57 +927,44 @@ textArea.formText {
     li {
         font-size: 20px;
     }
-    
+
     main {
         background-image: url(images/code-large.jpg);
         background-repeat: no-repeat;
         background-size:100%;
         background-position: center;
     }
-    
+
     main h1 {
         font-size: 5em;
     }
-    
+
     main .titleOne {
         font-size: 2.5em;
     }
-    
+
     main .titleTwo {
         font-size: 2.5em;
     }
-    
+
     article.typeText {
         font-size: 2em;
         height: 500px;
     }
-    
+
     .personal {
         margin-top: 60px;
         margin-left: auto;
         margin-right: auto;
 			  font-size: 1.5em;
     }
-    
+
     .contactLabel {
         font-size: 2.5em;
     }
-    
+
     form {
         margin: auto;
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
